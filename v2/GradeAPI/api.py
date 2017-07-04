@@ -3,9 +3,6 @@ import pymongo
 import MySQLdb
 from course_dashboard_api.v2.dbv import *
 
-import logging
-log = logging.getLogger(__name__)
-
 sql_user = MYSQL_USER
 sql_pswd = MYSQL_PSWD
 mysql_db = MYSQL_DB
@@ -463,7 +460,7 @@ def get_all_students_courses_grades():
         course_run = course[2]
         course_organization = course[0]
         grades = get_all_student_grades(course_name, course_run, course_organization)
-        if not grades:
+        if grades:
             courses_grade_list.append(grades)
     db_mysql.close()
     return courses_grade_list

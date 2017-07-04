@@ -666,7 +666,7 @@ def get_all_courses_details():
         course_run = course[2]
         course_organization = course[0]
         grades = get_all_student_grades(course_name, course_run, course_organization)
-        if not grades:
+        if grades:
             list.append(grades)
 
     return list
