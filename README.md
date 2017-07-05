@@ -2,6 +2,8 @@
 
 ## Course Dashboard API version 2
 
+The APIs in this repository, are for Open edX platform.
+
 ### Installation
 
 * Clone the repository:
@@ -45,3 +47,6 @@ sudo /edx/bin/supervisorctl restart edxapp:
 
 
 ### [Documentation for APIs](https://github.com/jaygoswami2303/course_dashboard_api/wiki)
+
+#### NOTE
+The GRADE endpoint works for Ficus release.
