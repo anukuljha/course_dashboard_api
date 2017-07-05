@@ -9,6 +9,8 @@ The APIs in this repository, are for Open edX platform.
 * Clone the repository:
 
   https://github.com/jaygoswami2303/course_dashboard_api.git
+  
+* In folder v2, python file dbv.py stores the database details for MySQL and Mongo, update MySQL database username/password as per the open edX server.
 
 * Copy the API folder (course_dashboard_api) to the folder, /edx/app/edxapp/edx-platform/lms/djangoapps/
 
