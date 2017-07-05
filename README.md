@@ -21,10 +21,6 @@ INSTALLED_APPS = (
 
 'course_dashboard_api’ ,
 
-‘organization_dashboard_api’ ,
-
-‘registration_api',
-
 )
 ```
 
